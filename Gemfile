@@ -71,7 +71,7 @@ gem "vite_rails", "~> 3.0"
 
 gem "httparty", "~> 0.22.0"
 
-gem "sidekiq", "~> 7.3"
+gem "sidekiq", "~> 8.0"
 
 gem "sidekiq-cron", "~> 2.1"
 
