@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  mastodon_id: MyString
+  posted_at: 2025-03-04 21:53:31
+  username: MyString
+  display_name: MyString
+  content: MyText
+  avatar_url: MyString
+  replies_count: 1
+  reblogs_count: 1
+  favorites_count: 1
+
+two:
+  mastodon_id: MyString
+  posted_at: 2025-03-04 21:53:31
+  username: MyString
+  display_name: MyString
+  content: MyText
+  avatar_url: MyString
+  replies_count: 1
+  reblogs_count: 1
+  favorites_count: 1

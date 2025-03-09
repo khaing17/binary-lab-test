@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@plugin "@tailwindcss/forms";
+
+/* Hide scrollbar */
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+:where(p > a.hashtag) {
+    @apply font-semibold hover:underline;
+}
+
+:where(p > a:not(.hashtag)) {
+    @apply line-clamp-1 text-violet-600 hover:underline underline-offset-2;
+}
+
+.rich-text {
+    white-space: wrap;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+}

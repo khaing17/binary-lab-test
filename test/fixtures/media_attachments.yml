@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  mastodon_post: one
+  mastodon_id: MyString
+  media_type: MyString
+  url: MyString
+  preview_url: MyString
+  meta: 
+  description: MyText
+
+two:
+  mastodon_post: two
+  mastodon_id: MyString
+  media_type: MyString
+  url: MyString
+  preview_url: MyString
+  meta: 
+  description: MyText

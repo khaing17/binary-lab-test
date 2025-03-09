@@ -1,0 +1,5 @@
+fetch_mastodon_posts:
+  cron: "*/5 * * * *"
+  class: "FetchMastodonPostsJob"
+  queue: "default"
+  description: "Fetches posts from Mastodon API every 5 minutes"
