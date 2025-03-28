@@ -69,7 +69,7 @@ end
 
 gem "vite_rails", "~> 3.0"
 
-gem "httparty", "~> 0.22.0"
+gem "httparty", "~> 0.23.0"
 
 gem "sidekiq", "~> 7.3"
 
