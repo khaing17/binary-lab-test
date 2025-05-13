@@ -73,6 +73,6 @@ gem "httparty", "~> 0.22.0"
 
 gem "sidekiq", "~> 7.3"
 
-gem "sidekiq-cron", "~> 2.1"
+gem "sidekiq-cron", "~> 2.3"
 
 gem 'kaminari'
